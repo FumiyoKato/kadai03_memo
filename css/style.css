@@ -1,0 +1,106 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    min-height: 100%;
+    width: 100%;
+    font-family: "YuGothic","Yu Gothic","Meiryo","ヒラギノ角ゴ","sans-serif";
+}
+
+/* /// ヘッダー領域 /// */
+header {
+    margin-top: 20px;
+    height: auto;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+.WDS_icon img {
+    width: 200px;
+    float: left;
+}
+.site_thema {
+    float: left;
+    font-size: 20px;
+    color: #0066CC;
+}
+
+/* /// コンテンツ領域 /// */
+main {
+    height: auto;
+    max-width: 100%;
+    background-color: white;
+}
+.container{
+    padding: 2%;
+    height: auto;
+    width: 100%;
+    background-color: skyblue;
+}
+
+/* 事業者名入力パーツ */
+#Applicant {
+    padding-bottom: 20px;
+}
+#label_CompanyName {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000077;
+}
+input#CompanyName {
+    width: 300px;
+    height: 30px;
+}
+
+/* /// 予測単位の定義領域 /// */
+#FCT_unit {
+    padding-left: 10px;
+}
+
+/* 予測単位名パーツ */
+.FCT_unit_Name {
+    font-size: 20px;
+    color: #0000BB;
+}
+input#FCT_unit_Name {
+    width: 500px;
+    height: 30px;
+}
+
+/* /// 発電所スペック領域 /// */
+.PVgroup_spec {
+    padding: 1% 5%;
+    display: flex; /* 子要素を横並びに */
+    flex-direction: row; /* 子要素を２段に */
+    flex-wrap: wrap; /* 子要素を折り返して表示 */
+}
+.PVgroup_wrapper {
+    width: 50%; /* 子要素を50%ずつ横並びに */
+}
+
+/* 予測単位追加設定ボタンパーツ */
+.add_FCT_unit {
+    padding: 10px;
+}
+#add_unit_button {
+    font-size: 20px;
+}
+
+/* PV出力予測サービス申し込みボタンパーツ */
+#apply{
+    padding-top: 50px;
+}
+#apply_button{
+    font-size: 20px;
+    display: block;
+	text-align: center;
+	text-decoration: none;
+	width: 200px;
+	padding: 1rem 1rem;
+	font-weight: bold;
+	border-radius: 100vh;
+	border-bottom: 7px solid #CC3366;
+	background: #FF66CC;
+	color: #fff;
+}
